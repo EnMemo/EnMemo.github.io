@@ -110,13 +110,27 @@ layout: compress
       ga('create', '{{ site.google_analytics }}', 'auto');
       ga('send', 'pageview');
     </script>
-    <!--Tencent Mail provider-->
-    <script type="text/javascript">
-      writeLoginPanel({domainlist:"enmemo.com", mode:"horizontal"});
-    </script>
-
+    
   </head>
   <body>
+    <style>
+.bizmail_loginpanel{font-size:8px;width:200px;height:auto;border:1px solid #cccccc;background:#ffffff;}
+.bizmail_LoginBox{padding:8px 10px;}
+.bizmail_loginpanel h3{padding-bottom:5px;margin:0 0 5px 0;border-bottom:1px solid #cccccc;font-size:14px;}
+.bizmail_loginpanel form{margin:0;padding:0;}
+.bizmail_loginpanel input.text{font-size:8px;width:80px;height:15px;margin:0 2px;border:1px solid #C3C3C3;border-color:#7C7C7C #C3C3C3 #C3C3C3 #9A9A9A;}
+.bizmail_loginpanel .bizmail_column{height:20px;}
+.bizmail_loginpanel .bizmail_column label{display:block;float:left;width:20px;height:16px;line-height:20px;font-size:8px;}
+.bizmail_loginpanel .bizmail_column .bizmail_inputArea{float:left;width:200px;}
+.bizmail_loginpanel .bizmail_column span{font-size:8px;word-wrap:break-word;margin-left: 2px;line-height:160%;}
+.bizmail_loginpanel .bizmail_SubmitArea{margin-left:20px;clear:both;}
+.bizmail_loginpanel .bizmail_SubmitArea a{font-size:8px;margin-left:5px;}
+.bizmail_loginpanel select{width:88px;height:16px;margin:0 2px;}
+</style>
+<script type="text/javascript" src="http://exmail.qq.com/zh_CN/htmledition/js_biz/outerlogin.js"  charset="gb18030"></script>
+<script type="text/javascript">
+writeLoginPanel({domainlist:"enmemo.com", mode:"horizontal"});
+</script>
     <div class="container">
       <div class="col-sm-3">
         <div class="fixed-condition">
