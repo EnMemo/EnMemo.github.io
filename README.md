@@ -4,7 +4,7 @@
 > and the search posts using [Super Search](https://github.com/chinchang/super-search)
 
 ### Demo
-* [enmemo.com](enmemmo.com)
+* [https://github.com/EnMemo/EnMemo.github.io](https://github.com/EnMemo/EnMemo.github.io)
 
 #### Features
 
@@ -69,4 +69,4 @@ image: Broadcast_Mail.png             # (custom) image only for meta `property="
 
 ### Contributing
 
-Feel free to [open a bug](https://github.com/EnMemo) or [contribute to code](https://github.com/EnMemo) !
+Feel free to [open a bug](https://github.com/EnMemo) or [contribute to code](https://github.com/agusmakmun) !
