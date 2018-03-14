@@ -69,4 +69,4 @@ image: Broadcast_Mail.png             # (custom) image only for meta `property="
 
 ### Contributing
 
-Feel free to [open a bug](https://github.com/EnMemo) or [contribute to code](enmemo.com)!
+Feel free to [open a bug](https://github.com/EnMemo) or [contribute to code](https://github.com/EnMemo) !
