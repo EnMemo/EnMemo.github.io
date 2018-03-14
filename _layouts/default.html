@@ -114,6 +114,21 @@ layout: compress
   </head>
   <body>
     
+<style>
+.bizmail_loginpanel{font-size:8px;width:30px;height:auto;border:1px solid #cccccc;background:#ffffff;}
+.bizmail_LoginBox{padding:0px 0px;}
+.bizmail_loginpanel form{margin:0;padding:0;}
+.bizmail_loginpanel .bizmail_column{height:8px;}
+.bizmail_loginpanel .bizmail_column .bizmail_inputArea{float:left;width:30px;}
+.bizmail_loginpanel .bizmail_column span{font-size:12px;word-wrap:break-word;margin-left: 2px;line-height:50%;}
+.bizmail_loginpanel .bizmail_SubmitArea{margin-left:5px;clear:both;}
+.bizmail_loginpanel .bizmail_SubmitArea a{font-size:12px;margin-left:5px;}
+.bizmail_loginpanel select{width:30px;height:8px;margin:0 2px;}
+</style>
+<script type="text/javascript" src="http://exmail.qq.com/zh_CN/htmledition/js_biz/outerlogin.js"  charset="gb18030"></script>
+<script type="text/javascript">
+writeLoginPanel({domainlist:"enmemo.com", mode:"horizontal"});
+</script>
     <div class="container">
       <div class="col-sm-3">
         <div class="fixed-condition">
@@ -143,21 +158,6 @@ layout: compress
               <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
             {% endfor %}
           </ul>
-          <style>
-.bizmail_loginpanel{font-size:8px;width:50px;height:auto;border:1px solid #cccccc;background:#ffffff;}
-.bizmail_LoginBox{padding:0px 0px;}
-.bizmail_loginpanel form{margin:0;padding:0;}
-.bizmail_loginpanel .bizmail_column{height:8px;}
-.bizmail_loginpanel .bizmail_column .bizmail_inputArea{float:left;width:30px;}
-.bizmail_loginpanel .bizmail_column span{font-size:12px;word-wrap:break-word;margin-left: 2px;line-height:50%;}
-.bizmail_loginpanel .bizmail_SubmitArea{margin-left:5px;clear:both;}
-.bizmail_loginpanel .bizmail_SubmitArea a{font-size:12px;margin-left:5px;}
-.bizmail_loginpanel select{width:40px;height:8px;margin:0 2px;}
-</style>
-<script type="text/javascript" src="http://exmail.qq.com/zh_CN/htmledition/js_biz/outerlogin.js"  charset="gb18030"></script>
-<script type="text/javascript">
-writeLoginPanel({domainlist:"enmemo.com", mode:"horizontal"});
-</script>
         </div>
         <!-- end /.fixed-condition -->
       </div>
