@@ -1,7 +1,7 @@
 ## Predictive Decision
 
 > This project forked and has been modified from [A simple grey theme for Jekyll](https://github.com/liamsymonds/simplygrey-jekyll),
-> and the search posts using [Super Search](https://github.com/chinchang/super-search)
+> and the search posts using [Super Search](https://github.com/chinchang/super-search).  It is modified further by [agusmakmun](https://github.com/agusmakmun).
 
 ### Demo
 * [https://github.com/EnMemo/EnMemo.github.io](https://github.com/EnMemo/EnMemo.github.io)
