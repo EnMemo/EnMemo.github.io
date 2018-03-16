@@ -16,7 +16,6 @@ layout: compress
     <meta content="{{ site.share.fb_appid }}" property="fb:app_id">
     <meta content="{{ site.title }}" property="og:site_name">
 
-
     {% if page.noindex %}
       <meta name="robots" content="noindex">
     {% endif %}
@@ -106,10 +105,9 @@ layout: compress
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
       ga('create', '{{ site.google_analytics }}', 'auto');
       ga('send', 'pageview');
-    </script>			 
+    </script>
 <style>
 .bizmail_loginpanel{font-size:12px;width:300px;height:auto;border:1px solid #cccccc;background:#ffffff;}
 .bizmail_LoginBox{padding:10px 15px;}
@@ -129,17 +127,17 @@ layout: compress
 writeLoginPanel({domainlist:"enmemo.com", mode:"horizontal"});
 </script>   
   </head>
-	<body>
-	  <div class="container">
-       		<div class="col-sm-3">
-        		<div class="fixed-condition">
-          			<a href="/"><img class="profile-avatar" src="{{ site.avatar_url }}" height="75px" width="75px" /></a>
-        		        <h1 class="author-name">{{ site.author }}</h1>
-          			{% if site.about %}
-            	<div class="profile-about">
+  <body>
+    <div class="container">
+      <div class="col-sm-3">
+        <div class="fixed-condition">
+          <a href="/"><img class="profile-avatar" src="{{ site.avatar_url }}" height="75px" width="75px" /></a>
+          <h1 class="author-name">{{ site.author }}</h1>
+          {% if site.about %}
+            <div class="profile-about">
               {{ site.about }}
-            	</div>
-          	{% endif %}
+            </div>
+          {% endif %}
           <div class="social">
             <ul>
               {% for link in site.social %}
@@ -159,11 +157,9 @@ writeLoginPanel({domainlist:"enmemo.com", mode:"horizontal"});
               <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
             {% endfor %}
           </ul>
-	</div>
-        <!-- end /.fixed-condition -->       
+        </div>
+        <!-- end /.fixed-condition -->
       </div>
-
-
       <div class="col-sm-8 col-offset-1 main-layout">
         {{ content }}
         <footer>
