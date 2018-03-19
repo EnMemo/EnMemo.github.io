@@ -109,17 +109,17 @@ layout: compress
       ga('send', 'pageview');
     </script>
 <style>
-.bizmail_loginpanel{font-size:9px;width:180px;height:auto;border:1px solid #cccccc;background:#ffffff;}
+.bizmail_loginpanel{font-size:10px;width:180px;height:auto;border:1px solid #cccccc;background:#ffffff;}
 .bizmail_LoginBox{padding:2px 3px;}
-.bizmail_loginpanel h3{padding-bottom:3px;margin:0 0 3px 0;border-bottom:1px solid #cccccc;font-size:9px;}
+.bizmail_loginpanel h3{padding-bottom:3px;margin:0 0 3px 0;border-bottom:1px solid #cccccc;font-size:10px;}
 .bizmail_loginpanel form{margin:0;padding:0;}
-.bizmail_loginpanel input.text{font-size:9px;width:55px;height:12px;margin:0 2px;border:1px solid #C3C3C3;border-color:#7C7C7C #C3C3C3 #C3C3C3 #9A9A9A;}
+.bizmail_loginpanel input.text{font-size:10px;width:55px;height:12px;margin:0 2px;border:1px solid #C3C3C3;border-color:#7C7C7C #C3C3C3 #C3C3C3 #9A9A9A;}
 .bizmail_loginpanel .bizmail_column{height:12px;}
-.bizmail_loginpanel .bizmail_column label{display:block;float:left;width:40px;height:10px;line-height:10px;font-size:9px;}
+.bizmail_loginpanel .bizmail_column label{display:block;float:left;width:40px;height:10px;line-height:10px;font-size:10px;}
 .bizmail_loginpanel .bizmail_column .bizmail_inputArea{float:left;width:140px;}
-.bizmail_loginpanel .bizmail_column span{font-size:9px;word-wrap:break-word;margin-left: 2px;line-height:70%;}
+.bizmail_loginpanel .bizmail_column span{font-size:10px;word-wrap:break-word;margin-left: 2px;line-height:70%;}
 .bizmail_loginpanel .bizmail_SubmitArea{margin-left:3px;clear:both;}
-.bizmail_loginpanel .bizmail_SubmitArea a{font-size:9px;margin-left:3px;}
+.bizmail_loginpanel .bizmail_SubmitArea a{font-size:10px;margin-left:3px;}
 .bizmail_loginpanel select{width:66px;height:12px;margin:0 2px;}
 </style>
 <script type="text/javascript" src="/static/js/tmaillogin.js"  charset="gb18030"></script>
@@ -158,17 +158,17 @@ layout: compress
               <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
             {% endfor %}
           </ul>
-         <div id="login-mail">
-          <script type="text/javascript">
-            writeLoginPanel({domainlist:"enmemo.com", mode:"horizontal"});
-          </script>
-          </div>
         </div>
         
         
         <!-- end /.fixed-condition -->
       </div>
       <div class="col-sm-8 col-offset-1 main-layout">
+         <div id="login-mail">
+          <script type="text/javascript">
+            writeLoginPanel({domainlist:"enmemo.com", mode:"horizontal"});
+          </script>
+          </div>
         {{ content }}
         <footer>
           &copy; {{ site.author }}
