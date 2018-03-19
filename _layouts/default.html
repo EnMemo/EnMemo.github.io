@@ -117,15 +117,13 @@ layout: compress
 .bizmail_loginpanel .bizmail_column{height:12px;}
 .bizmail_loginpanel .bizmail_column label{display:block;float:left;width:40px;height:10px;line-height:10px;font-size:9px;}
 .bizmail_loginpanel .bizmail_column .bizmail_inputArea{float:left;width:125px;}
-.bizmail_loginpanel .bizmail_column span{font-size:9px;word-wrap:break-word;margin-left: 2px;line-height:100%;}
+.bizmail_loginpanel .bizmail_column span{font-size:9px;word-wrap:break-word;margin-left: 2px;line-height:70%;}
 .bizmail_loginpanel .bizmail_SubmitArea{margin-left:3px;clear:both;}
 .bizmail_loginpanel .bizmail_SubmitArea a{font-size:10px;margin-left:3px;}
 .bizmail_loginpanel select{width:66px;height:12px;margin:0 2px;}
 </style>
 <script type="text/javascript" src="/static/js/tmaillogin.js"  charset="gb18030"></script>
-<script type="text/javascript">
-writeLoginPanel({domainlist:"enmemo.com", mode:"horizontal"});
-</script>
+
 
   </head>
   <body>
@@ -160,7 +158,14 @@ writeLoginPanel({domainlist:"enmemo.com", mode:"horizontal"});
               <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
             {% endfor %}
           </ul>
+         <div id="login-mail">
+          <script type="text/javascript">
+            writeLoginPanel({domainlist:"enmemo.com", mode:"horizontal"});
+          </script>
+          </div>
         </div>
+        
+        
         <!-- end /.fixed-condition -->
       </div>
       <div class="col-sm-8 col-offset-1 main-layout">
